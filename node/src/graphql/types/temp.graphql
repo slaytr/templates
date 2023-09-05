@@ -1,0 +1,14 @@
+type Book {
+    title: String
+    author: String
+}
+
+type Car {
+    name: String
+    model: String
+}
+
+type Query {
+    books: [Book]
+    cars: [Car]
+}
